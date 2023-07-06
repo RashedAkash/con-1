@@ -94,6 +94,7 @@ details{
 
 /* service area style */
 .Services-area{
+  padding: 100px 0;
   background-image: linear-gradient(45deg, gray,#ddd);
 }
 .Services-area h1{
@@ -105,6 +106,7 @@ details{
 .services-container{
   display: flex;
   justify-content: space-around;
+  
 }
 .single-service{
   background-color: #000;
@@ -141,4 +143,44 @@ font-weight: 700;
 text-decoration: none;
 background-image: linear-gradient(45deg, purple,cyan);
 padding: 10px 20px;
+}
+
+/* footer style */
+.footer-logo{}
+.footer-logo img{
+  width: 200px;
+}
+.footer-text p{
+  width: 250px;
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 17px;
+}
+.footer-widget{}
+.footer-widget h2{
+  color: #fff;
+  margin-bottom: 20px;
+  
+}
+.footer-link ul{}
+.footer-link ul li{
+  color: #fff;
+  margin-bottom: 15px;
+  list-style: none;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  background-image: linear-gradient(45deg,cyan,purple);
+}
+.Copyright{
+  text-align: center;
+  background-image: linear-gradient(45deg,cyan,purple);
+  padding: 25px;
+  border-top: 2px solid #fff;
+  
+}
+.Copyright p{
+  font-size: 17px;
 }
